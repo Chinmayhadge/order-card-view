@@ -1,0 +1,48 @@
+
+body{
+    margin: 0px;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Outfit', sans-serif;
+}
+.svg{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.img-card{
+    background-color: white;
+    border-radius: 20px;
+}
+.image{
+    border-radius: 20px 20px 0 0;
+    background-color: white;
+}
+.content{
+    width: 360px;
+    padding: 0 45px 20px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+h2{
+    text-align: center ;
+}
+.descr{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    line-height: 25px;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.plan{
+    padding: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+}
